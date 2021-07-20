@@ -1,0 +1,50 @@
+notes.txt
+
+Node Package Manager (npm)
+
+Node.js and Browsers use javascript language
+
+Node.js does not have global "document" or "window" element
+No need for JS compiler like Babel
+
+The code will be executed by user's Browsers
+
+Node.js uses CommonJS
+
+Why Node.JS in server side?
+    Vast number of libraries ready
+    enables asyc I/O
+
+Node.js uses single thread to process code.
+
+Aula 6:
+V8 engine = javascript engine (written in CPP, interpreter of js)
+async code handler = Libuv
+
+Aula 8:
+Tick is a loop of stages:
+    Timers
+    Pending CallBacks (CB)
+    Poll
+    Check
+
+setImmediate(CB)
+process.nextTick(CB)
+
+
+Aula 11:
+JSON - javascript object notation
+
+Aula 38:
+npm init
+npm i --save-dev nodemon
+npm i @hapi/joi
+npm list
+npm list --depth=0
+npm view @hapi/joi
+npm i express@4.0.0
+
+npm i -g will install globally the Package
+
+
+npm start will run index.js
